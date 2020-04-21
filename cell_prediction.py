@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import matplotlib.pyplot as plt
 import numpy as np
-model=load_model('C:/Users/mugesh/Projects/Cell_Classification/malaria_detector.h5')
+model=load_model('malaria_detector.h5')
 import getpass
 file=getpass.getpass("Enter the Cell Image Path:")
 def Convert(string): 
